@@ -24,6 +24,18 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
    </head>
+   <script>
+      function submitForm() {
+         // Add your form submission logic here
+         alert("Form submitted!"); // Replace this with your actual submission logic
+      }
+   
+      function navigateToNextPage() {
+         location.href = 'registration.html';
+      }
+   </script>
+   
+
    <!-- body -->
    <body class="main-layout inner_page">
       <!-- loader  -->
@@ -56,8 +68,8 @@
                                  <a class="nav-link" href="index.html">Home</a>
                               </li>
                               <li class="nav-item active">
-                                <a class="nav-link" href="main.html">Daily</a>
-                             </li>
+                                 <a class="nav-link" href="main.html">Daily</a>
+                              </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="about.html">About</a>
                               </li>
@@ -76,8 +88,8 @@
                   </div>
                   <div class="col-md-2 d_none">
                      <ul class="email text_align_right">
-                        <li> <a href="Javascript:void(0)"> Login </a></li>
-                        <li> <a href="Javascript:void(0)"> <i class="fa fa-search" style="cursor: pointer;" aria-hidden="true"> </i></a> </li>
+                        <li> <a href=""> Login </a></li>
+                        <li> <a href=""> <i class="fa fa-search" style="cursor: pointer;" aria-hidden="true"> </i></a> </li>
                      </ul>
                   </div>
                </div>
@@ -106,18 +118,17 @@
                         </div>
                         <div class="col-md-12">
                            <textarea class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn" >Submit</button>
-                           <button class="send_btn" onclick="location.href='registration.html'">Register</button>
-
-                        </div>
-                        
+                        </div>                                          
+                     </div>
+                     <div class="col-md-12">
+                        <button class="send_btn"><a href="main.html"></a>Submit</button>
+                        <button class="send_btn" ><a href="registration.html">registration</a></button>
                      </div>
                   </form>
                </div>
             </div>
          </div>
+
       </div>
       <!-- contact -->
       <!-- footer -->
@@ -127,12 +138,6 @@
                <div class="row">
                   <div class="col-md-3">
                      <a class="logo_footer" href="index.html"><img src="logo2.png" alt="#" /></a>
-                  </div>
-                  <div class="col-md-9">
-                     <form class="newslatter_form">
-                        <input class="ente" placeholder="Enter your email" type="text" name="Enter your email">
-                        <button class="subs_btn">Sbscribe Now</button>
-                     </form>
                   </div>
                   <div class="col-md-3 col-sm-6">
                      <div class="Informa helpful">

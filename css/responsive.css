@@ -2,11 +2,21 @@
 File Name: responsive.css 
 ---------------------------------------------------------------------*/
 
+/* Common Styles for all Screen Sizes */
+ul.email li {
+    padding: 0px 8px;
+}
+#top_section {
+    padding-top: 150px;
+    height: 700px;
+}
+
+/* Larger Screens */
 @media (min-width: 1200px) and (max-width: 1320px) {
     ul.email li {
         padding: 0px 31px;
     }
-     #top_section {
+    #top_section {
         height: 700px;
     }
 }
@@ -14,9 +24,6 @@ File Name: responsive.css
 @media (min-width: 992px) and (max-width: 1199px) {
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 0px 21px;
-    }
-    ul.email li {
-        padding: 0px 19px;
     }
     #top_section {
         padding-top: 164px;
@@ -30,12 +37,10 @@ File Name: responsive.css
     }
 }
 
+/* Medium Screens */
 @media (min-width: 768px) and (max-width: 991px) {
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 0px 7px;
-    }
-    ul.email li {
-        padding: 0px 8px;
     }
     #top_section {
         padding-top: 150px;
@@ -74,6 +79,7 @@ File Name: responsive.css
     }
 }
 
+/* Small Screens */
 @media (min-width: 576px) and (max-width: 767px) {
     #top_section {
         padding-top: 150px;
@@ -141,6 +147,7 @@ File Name: responsive.css
     }
 }
 
+/* Extra Small Screens (Mobile) */
 @media (max-width: 575px) {
     .header {
         padding: 37px 0px;
@@ -238,21 +245,10 @@ File Name: responsive.css
         width: 100%;
         z-index: 999;
     }
-    .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 10px 0;
-        color: #fff;
-        text-align: left;
-    }
-    .navigation.navbar-dark .navbar-toggler {
-        float: right;
-        border: inherit;
-        margin-top: 1px;
-        padding: 0;
-        outline: inherit;
-    }
     .navigation.navbar-dark .navbar-toggler-icon {
         background: url(../images/menu_btn.png);
         background-repeat: no-repeat;
         width: 48px;
     }
 }
+       

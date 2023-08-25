@@ -141,7 +141,7 @@ img {
      height: auto;
 }
 
- :focus {
+:focus {
      outline: 0;
 }
 
@@ -211,7 +211,7 @@ button {
 }
 
 .titlepage h2 {
-     font-size: 45px;
+     font-size: 40px;
      font-weight: bold;
      line-height: 50px;
      color: #323232;
@@ -221,7 +221,7 @@ button {
      display: inline-block;
      background: #6dcff6;
      color: #fff;
-     max-width: 215px;
+     max-width: 200px;
      height: 61px;
      line-height: 61px;
      width: 100%;
@@ -368,9 +368,23 @@ ul.email li i {
 
 
 /** banner_main **/
+#myVideo{
+     height: 5%;
+     width: 100%;
+}
+.content {
+     position: absolute;
+     bottom: 0;
+     background: rgba(0, 0, 0, 0.5);
+     color: #f1f1f1;
+     width: 100%;
+     padding: 46px;
+     
+}
+
 
 #top_section {
-     background-image: url('../images/banner.jpg');
+     /* background-image: url("../images/banner.jpg"); */
      background-size: cover;
      background-repeat: no-repeat;
      padding-top: 120px;
@@ -409,15 +423,15 @@ ul.email li i {
 }
 
 .bluid {
-     margin-top: 10px;
+     margin-top: 116px;
      font-family: 'Open Sans', sans-serif;
      text-align: left;
 }
 
 .banner_main .bluid h1 {
      color: #fff;
-     font-size: 100px;
-     line-height: 110px;
+     font-size: 48px;
+     line-height: 55px;
      font-weight: bold;
      padding-bottom: 25px;
 }
@@ -540,7 +554,7 @@ ul.email li i {
 /** about **/
 
 .about {
-     background: url(../images/about_bg.jpg);
+     background: url(../images/banner2.jpg);
      background-position: center;
      background-repeat: no-repeat;
      height: 100vh;
@@ -1014,7 +1028,7 @@ ul.social_icon li a:hover {
 .inner_page .header {
      box-shadow: 0 -3px 20px 0px #717171;
      position: inherit;
-   
+
 }
 
 .inner_page .about {
