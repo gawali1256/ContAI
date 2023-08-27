@@ -120,7 +120,7 @@ p {
 }
 
 a {
-     color: #222222;
+     color: #fdf9f9;
      text-decoration: none;
      outline: none !important;
 }
@@ -366,18 +366,27 @@ ul.email li i {
      font-size: 19px;
 }
 
-
+.video{
+     height:max-content;
+}
 /** banner_main **/
 #myVideo{
-     height: 5%;
+     /* height: 80%; */
      width: 100%;
 }
+
+section#video {
+     height: 100vh;
+     overflow: hidden;
+}
+
 .content {
      position: absolute;
      bottom: 0;
      background: rgba(0, 0, 0, 0.5);
      color: #f1f1f1;
      width: 100%;
+
      padding: 46px;
      
 }
